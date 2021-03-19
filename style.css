@@ -21,6 +21,7 @@ h3 {
 p{    
     line-height: 2;
     margin:0 0 70px 0;
+    color:#40514E;
 }
 
 a{
@@ -54,7 +55,6 @@ hr{
     color: #66bfbf;
 }
 
-
 .top-container {
     background-color: rgb(228, 251, 255);
     width:100%;
@@ -81,12 +81,14 @@ hr{
 
 .code2 {
     width:25%;
-
+    float:right;
 }
 
 .code1 {
     border-radius:100%;
     width:23%;
+    float:left;
+    margin-right: 25px;
 }
 
 .chituprofile{
@@ -102,6 +104,11 @@ hr{
     width:50%;
     text-align: center;
     margin: 0 auto;
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    text-align: left;
 }
 
 .bottom-container{
