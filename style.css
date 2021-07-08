@@ -2,13 +2,14 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  width: 100%;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   color: #66bfbf;
-  margin: 2.5rem auto;
-  font-size: 2.5rem;
+  margin: 10% auto;
+  font-size: 250%;
   font-weight: normal;
   padding-bottom: 10px;
 }
@@ -44,7 +45,7 @@ hr {
 #description {
   margin: 0.83em auto;
   color: #66bfbf;
-  font-size: 2.5rem;
+  font-size: 250%;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -56,15 +57,25 @@ hr {
   color: #66bfbf;
 }
 
+.one {
+  margin-bottom: 50px;
+}
+
 .top-container {
   background-color: rgb(228, 251, 255);
+  width: 100%;
   height: 100%;
   position: relative;
   padding-top: 7.5%;
 }
 
+.mountain__images{
+  width: 45%;
+}
+
 .middle-container {
   margin-bottom: 7.5%;
+  width: 100%;
 }
 
 .bottom-cloud {
@@ -113,6 +124,7 @@ hr {
 
 .bottom-container {
   background-color: #66bfbf;
+  width: 100%;
   height: 175px;
 }
 
@@ -128,7 +140,7 @@ hr {
   position: relative;
   top: 80px;
   color: #eaf6f6;
-  font-size: 0.75rem;
+  font-size: 75%;
 }
 
 .btn {
@@ -143,7 +155,7 @@ hr {
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 125%;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -162,23 +174,21 @@ hr {
   .chituprofile {
     width: 50%;
   }
+  .bottom-cloud {
+    left: 10%;
+    bottom: 30%;
+  }
 }
 
 @media (max-width: 600px) {
-  .top-container {
-    height: 100%;
-    width: 125%;
-  }
   #name {
-    width: 80%;
+    font-size: 450%;
     margin-top: 100px;
   }
   #description {
     margin-top: 20px;
     margin-bottom: 100px;
-  }
-  .middle-container {
-    width: 125%;
+    font-size: 200%;
   }
   .profile {
     width: 70%;
@@ -190,77 +200,22 @@ hr {
     width: 80%;
     margin: 0 auto;
   }
-  .bottom-container {
-    width: 125%;
-  }
   .chituprofile {
     width: 35%;
   }
   .code1 {
     width: 28%;
   }
-}
-
-@media (max-width: 470px) {
-  .top-container {
-    height: 100%;
-    width: 150%;
-  }
-  .middle-container {
-    width: 150%;
-  }
-  .bottom-container {
-    width: 150%;
+  .mountain__images{
+    width: 80%;
   }
 }
 
-@media (max-width: 400px) {
-  .top-container {
-    height: 100%;
-    width: 180%;
+@media (max-width: 300px){
+  #name {
+    font-size: 320%;
   }
-  .middle-container {
-    width: 180%;
-  }
-  .bottom-container {
-    width: 180%;
-  }
-}
-
-@media (max-width: 325px) {
-  .top-container {
-    height: 100%;
-    width: 190%;
-  }
-  .middle-container {
-    width: 190%;
-  }
-  .bottom-container {
-    width: 190%;
-  }
-}
-
-@media (max-width: 310px) {
-  .top-container {
-    height: 100%;
-    width: 200%;
-  }
-  .middle-container {
-    width: 200%;
-  }
-  .bottom-container {
-    width: 200%;
-  }
-}
-@media (max-width: 250px) {
-  .top-container {
-    height: 100%;
-    width: 250%;
-  }
-  .middle-container {
-    width: 250%;
-  }
-  .bottom-container {
-    width: 250%;
+  #description{
+    font-size: 150%;
   }
 }
